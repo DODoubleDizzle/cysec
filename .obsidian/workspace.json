@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "f2c99a34fcc1f608",
+    "type": "split",
+    "children": [
+      {
+        "id": "36350ad19be35a4a",
+        "type": "tabs",
+        "dimension": 75.30959752321982,
+        "children": [
+          {
+            "id": "0afe6261e60dac23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 Identity and access management (IAM).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "86116f4df51bcaf3",
+        "type": "tabs",
+        "dimension": 24.690402476780186,
+        "children": [
+          {
+            "id": "aba1151ae5aa31e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 Identity and access management (IAM).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "34bb9e233b7bff1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "80db3d91a96d12bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d801ed98830543bd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c0c819ed2ec13b3c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "236ad9be94aba68b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c2c12d4e920fd916",
+    "type": "split",
+    "children": [
+      {
+        "id": "05467829259f1014",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "621d50fbbfb05f9b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2 Identity and access management (IAM).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "76ae4864fa461f41",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2 Identity and access management (IAM).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "44d68989c596f28d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "95df70295b740dd9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2 Identity and access management (IAM).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "aba1151ae5aa31e2",
+  "lastOpenFiles": [
+    "2 Identity and access management (IAM).md",
+    "1 Cybersecurity Concepts.md",
+    "Introduction to Ethical Hacking and Penetration Testing.md",
+    "Detect and Response.md",
+    "Email Security.md",
+    "Web Application Hacking.md",
+    "Public Key Infrastructure and TLS advanced.md",
+    "TLS.md",
+    "Complete Cryptography Systems.md",
+    "Asymmetric Encryption and Hash Functions.md",
+    "Symmetric Encryption and Key Exchange.md",
+    "Pasted image 20240222130332.png",
+    "Authentication and Federation.md"
+  ]
+}
