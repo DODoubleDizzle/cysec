@@ -97,16 +97,15 @@ Biometrics, Voice, Fingerprint, Signature dynamics
 ### 2.8.6 Geolocation
 Depending on where you are you have access
 #### 2.8.6.1 Somewhere you are
-The somewhere-you-are factor identifies a subject’s location based on a specific computer, a geographic location identified by an Internet Protocol (IP) address, or a phone number identified by caller ID
+The somewhere-you-are factor identifies a subject’s location based on a specific computer, a geographic location using IP address, or a phone number identified by caller ID
 #### 2.8.6.2 Somewhere you aren't
-Many IAM systems use geolocation technologies to identify suspicious activity • For example, imagine that a user typically logs on with an IP address in Switzerland. If a user is trying to log on from a location in India, it can block the access even if the user has the correct username and password
+For example, if a user typically logs on with an IP address in Switzerland. If a user is trying to log on from a location in India, it can block the access even if the user has the correct username and password
 
 ## 2.9 Authorization
 ### 2.9.1 From users perspective
 Verification of the digital identity for authenticity
 ### 2.9.2 From system perspective
 If the authentication worked you still need to be authorized to perform functions or access specific resources within the controlled environment.
-
 ### 2.9.3 Access control models
 #### 2.9.3.1 Discretionary Access Control (DAC)
 Every object has an owner, and the owner can grant or deny access to any other subjects. Used in NFTS etc.
@@ -116,7 +115,6 @@ Users are assigned to roles, and roles are assigned privileges. Users in a role 
 Global rules for all users. Rules in this models are sometimes called filters or restrictions.
 #### 2.9.3.4 Attribute Based Access Control
 Access to Objects are controlled by rules which can include multiple attributes. Subjects have attributes such as ID, job roles, group memberships, memberships, management level, security clearance etc. Access to an object is only granted if all attributes are acceptable.
-
 #### 2.9.3.5 Mandatory Access Control
 Each Object has a security level in an hierarchical structure (e.g. Top Secret, Confidential). Each Subject possesses a certain level in this structure as well. Subjects can only access Objects which are at or below their level in the hierarchy
 
@@ -129,20 +127,11 @@ Using interfaces to control what subjects can see or do. Users with full privile
 #### 2.9.4.3 Access Control Matrix
 An access control matrix is a table that includes subjects, objects, and assigned privileges.
 
-||file1.txt|file2.sql|Socket s|
-|---|---|---|---|
-|Alice|read, write|write|-|
-|Bob|-|read|append|
-|Process 294|-|-|open, read, write, close|
-
-
-
-|     | file1.txt   | file2.sql | Socket s                 |
-| --- | ----------- | --------- | ------------------------ |
-|     | read, write | write     | -                        |
-|     | -           | read      | append                   |
-|     | -           | -         | open, read, write, close |
-
+|            | file1.txt   | file2.sql | Socket s                 |
+| ---------- | ----------- | --------- | ------------------------ |
+| Person1    | read, write | write     | -                        |
+| Person2    | -           | read      | append                   |
+| Process294 | -           | -         | open, read, write, close |
 
 #### 2.9.4.4 Capability Table
 Same as Access Control Matrix, but focused on one service. Essentially the same as one collumn on the ACM.
@@ -151,7 +140,6 @@ Content-Dependent Control grants subjects access based on the information an Obj
 #### 2.9.4.6 Context-Dependent Control
 Context-Dependent Control only grants Subject access to an Object after a certain context in the system has been reached with previous actions/events.
 
-
 ## 2.10 Auditing
 Audit tables - every action of a user gets tracked.
 
@@ -159,4 +147,43 @@ Audit tables - every action of a user gets tracked.
 To be held accountable for actions that are mentioned in the auditing.
 
 
-# 3 Common Access Control Attacks
+# 3 Access Control Attacks
+### 3.1.1 Access Aggregation Attack (passive/reconnaissance attack)
+Aggregating multiple pieces of non-sensitive information and aggregating it to sensitive information.
+
+### 3.1.2 Password attacks (brute-force)
+Trying out every possible combination of a password. Can be done against online accounts, or offline accounts if one can manage to steal a database.
+
+#### 3.1.2.1 Dictionary Attack
+Instead of randomly guessing passwords, a dictionary attack uses "commonly used passwords" databases and may also "one-up" passwords (for example "password" -> "pa5sword" -> one character changed) in this dictionary.
+
+#### 3.1.2.2 Birthday Attacks (brute-force)
+A birthday attack focuses on finding collisions. One can reduce the success of birthday attacks by using hashing algorithms with enough bits to make collisions computationally infeasible, and by using salts.
+
+#### 3.1.2.3 Rainbow-Table Attacks
+This attack utilizes tables of pre-computed hashes to cut out hash-calculation times.
+
+#### 3.1.2.4 Sniffer Attacks
+Using a sniffer to intercept network traffic containing classified information. Can be avoided by using secure transmission protocols, using One-Time passwords and establishing physical security in your network.
+
+#### 3.1.2.5 Social Engineering Attack
+Social Engineering Attack consist of hackers gaining the trust of an authorized person in order to gain access to objects in their domain.
+
+#### 3.1.2.6 Shoulder Surfing
+Hackers looking over the shoulder of someone to gain access to objects.
+
+#### 3.1.2.7 Phishing
+Phishing is a form of social engineering that attempts to trick users into giving up sensitive information, opening an attachment, or clicking a link.
+- Phishing emails are sent as spam, targeting users with the hope that some will respond.
+- Common access control attacks include Simple Phishing, asking users to respond with credentials.
+- More sophisticated phishing involves links to fake websites or infected attachments.
+- Attackers may exploit social media to tailor phishing emails based on relationships between individuals.
+
+##### 3.1.2.7.1 Whaling
+Phishing that targets senior or high-level executives such as chief executive officers (CEOs) and presidents within a company.
+
+#### 3.1.2.8 Spear Phishing
+Phishing that targets a specific group of users.
+
+#### 3.1.2.9 Vishing
+Using VOIP or Instant Messaging for Phishing.

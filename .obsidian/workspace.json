@@ -6,29 +6,9 @@
       {
         "id": "36350ad19be35a4a",
         "type": "tabs",
-        "dimension": 75.30959752321982,
         "children": [
           {
             "id": "0afe6261e60dac23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 Identity and access management (IAM).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "86116f4df51bcaf3",
-        "type": "tabs",
-        "dimension": 24.690402476780186,
-        "children": [
-          {
-            "id": "aba1151ae5aa31e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -168,7 +148,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aba1151ae5aa31e2",
+  "active": "0afe6261e60dac23",
   "lastOpenFiles": [
     "2 Identity and access management (IAM).md",
     "1 Cybersecurity Concepts.md",
