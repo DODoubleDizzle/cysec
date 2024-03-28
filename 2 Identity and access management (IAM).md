@@ -140,6 +140,15 @@ Content-Dependent Control grants subjects access based on the information an Obj
 #### 2.9.4.6 Context-Dependent Control
 Context-Dependent Control only grants Subject access to an Object after a certain context in the system has been reached with previous actions/events.
 
+#### 2.9.4.7 Need to know
+Access only to what they need to know for their work tasks and job functions
+
+#### 2.9.4.8 Least Privilege
+Only the privileges they need and nothing more
+
+#### 2.9.4.9 Separation of Duties and Responsibilities
+No single person can compromise the system or its security
+
 ## 2.10 Auditing
 Audit tables - every action of a user gets tracked.
 
@@ -187,3 +196,20 @@ Phishing that targets a specific group of users.
 
 #### 3.1.2.9 Vishing
 Using VOIP or Instant Messaging for Phishing.
+
+# 4 Protection Mechanisms
+## 4.1 Layering
+Use multiple controls in a series
+## 4.2 Abstraction
+- Classifying objects or assigning roles to subjects
+- Assign security controls to a group ordered by function
+## 4.3 Data Hiding
+- Position the data in a logical storage compartment that is not accessible
+## 4.4 Security through obscurity
+Not telling someone that there is information so that it "cant be discovered".
+>[!warning]
+>Not actual protection
+
+## 4.5 Encryption
+- Hide the meaning of a message through encryption.
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 Identity and access management (IAM).md",
+                "file": "6 TLS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 Identity and access management (IAM).md",
+                "file": "6 TLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 Identity and access management (IAM).md",
+                "file": "6 TLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 Identity and access management (IAM).md"
+                "file": "6 TLS.md"
               }
             }
           }
@@ -150,18 +150,19 @@
   },
   "active": "0afe6261e60dac23",
   "lastOpenFiles": [
-    "2 Identity and access management (IAM).md",
     "1 Cybersecurity Concepts.md",
+    "2 Identity and access management (IAM).md",
+    "6 TLS.md",
+    "5 Complete Cryptography Systems.md",
+    "ServerHello.md",
+    "Authentication and Federation.md",
+    "4 Asymmetric Encryption and Hash Functions.md",
+    "Public Key Infrastructure and TLS advanced.md",
+    "3 Symmetric Encryption and Key Exchange.md",
     "Introduction to Ethical Hacking and Penetration Testing.md",
     "Detect and Response.md",
     "Email Security.md",
     "Web Application Hacking.md",
-    "Public Key Infrastructure and TLS advanced.md",
-    "TLS.md",
-    "Complete Cryptography Systems.md",
-    "Asymmetric Encryption and Hash Functions.md",
-    "Symmetric Encryption and Key Exchange.md",
-    "Pasted image 20240222130332.png",
-    "Authentication and Federation.md"
+    "Pasted image 20240222130332.png"
   ]
 }
