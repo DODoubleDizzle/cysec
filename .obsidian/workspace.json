@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c1595f36d95f21d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 TLS Advanced.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 TLS.md",
+                "file": "7 TLS Advanced.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 TLS.md",
+                "file": "7 TLS Advanced.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 TLS.md"
+                "file": "7 TLS Advanced.md"
               }
             }
           }
@@ -148,13 +161,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0afe6261e60dac23",
+  "active": "c1595f36d95f21d4",
   "lastOpenFiles": [
+    "6 TLS.md",
+    "7 TLS Advanced.md",
+    "ServerHello.md",
     "1 Cybersecurity Concepts.md",
     "2 Identity and access management (IAM).md",
-    "6 TLS.md",
     "5 Complete Cryptography Systems.md",
-    "ServerHello.md",
     "Authentication and Federation.md",
     "4 Asymmetric Encryption and Hash Functions.md",
     "Public Key Infrastructure and TLS advanced.md",
