@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 TLS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1595f36d95f21d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 TLS Advanced.md",
-                "mode": "source",
+                "file": "1 Cybersecurity Concepts.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c2c12d4e920fd916",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7 TLS Advanced.md",
+                "file": "1 Cybersecurity Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "7 TLS Advanced.md",
+                "file": "1 Cybersecurity Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 TLS Advanced.md"
+                "file": "1 Cybersecurity Concepts.md"
               }
             }
           }
@@ -161,22 +149,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c1595f36d95f21d4",
+  "active": "0afe6261e60dac23",
   "lastOpenFiles": [
+    "3 Symmetric Encryption and Key Exchange.md",
+    "2 Identity and access management (IAM).md",
+    "1 Cybersecurity Concepts.md",
+    "9 Web Application Hacking.md",
+    "10 Gastvorlesung Detect and Response.md",
+    "Authentication and Federation.md",
     "6 TLS.md",
+    "Secure development lifecycle.md",
+    "8 Introduction to Ethical Hacking and Penetration Testing.md",
+    "NIST 800-63.md",
+    "Detect and Response.md",
+    "5 Complete Cryptography Systems.md",
+    "4 Asymmetric Encryption and Hash Functions.md",
     "7 TLS Advanced.md",
     "ServerHello.md",
-    "1 Cybersecurity Concepts.md",
-    "2 Identity and access management (IAM).md",
-    "5 Complete Cryptography Systems.md",
-    "Authentication and Federation.md",
-    "4 Asymmetric Encryption and Hash Functions.md",
     "Public Key Infrastructure and TLS advanced.md",
-    "3 Symmetric Encryption and Key Exchange.md",
-    "Introduction to Ethical Hacking and Penetration Testing.md",
-    "Detect and Response.md",
     "Email Security.md",
-    "Web Application Hacking.md",
     "Pasted image 20240222130332.png"
   ]
 }
